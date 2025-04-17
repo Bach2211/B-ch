@@ -1,5 +1,7 @@
+import java.util.Scanner;
 public class BT1 {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
         int a = 10; 
         int b = 3;
 
@@ -22,5 +24,7 @@ public class BT1 {
         System.out.println("a < b: " + (a < b));
         System.out.println("a >= b: " + (a >= b));
         System.out.println("a <= b: " + (a <= b));
+        
+        scanner.close();
     }
 }
